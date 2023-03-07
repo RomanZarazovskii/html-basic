@@ -33,7 +33,11 @@ img{
 }
 
 .nav-list-item{
-    margin: 70px 99px ;
+    margin: 70px;
+}
+
+.nav-list-item:last-child{
+    margin-right: 99px; 
 }
 
 .nav-list-item :hover,
@@ -56,7 +60,7 @@ img{
 .container{
     width: 1206px;
     margin: 0 auto;
-    padding: 0 0;
+    padding: 0 130px;
 }
 
 .main-list{
@@ -84,19 +88,19 @@ img{
     width: 420px;
 }
 
-.text-2{
+.main-list-paragraph{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #626262;
-    margin-bottom: 130px;
 }
 
 .button{
     width: 165px;
     height: 60px;
     border: 1px solid #626262;
+    margin-top: 94px;
     margin-bottom: 64px;
     background-color: white;
 }
